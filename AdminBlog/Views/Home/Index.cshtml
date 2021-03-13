@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+}
+
+    <form action="/home/login" method="post" autocomplete="off">
+        <div class="container">
+            <div class="row">
+                <div class="mb-3 col-1"><i class="fa fa-user"></i></div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" name="Email" placeholder="Email" aria-describedby="emailHelp">
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col-1"><i class="fa fa-key"></i></div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" name="Password" placeholder="Şifre">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Giriş Yap</button>
+        </div>
+    </form>
